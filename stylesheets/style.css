@@ -1,0 +1,66 @@
+body {
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+li {
+  font-size: 1.2em;
+  padding: .4em .1em;
+}
+
+.nav-spacer,.card-spacer{
+  height: 2em;
+}
+
+.banner {
+  width: 100%;
+  padding-top: 10em;
+  padding-bottom: 2em;
+}
+
+.organizer {
+  float: left;
+  height: 150px;
+  width: 150px;
+}
+
+.name {
+  text-align: center;
+  font-size: 1em;
+  padding: .25em 0;
+  font-weight: 600;
+}
+
+.association {
+  text-align: center;
+  font-style: italic;
+  font-size: 0.95em;
+}
+
+.clear-both {
+  clear: both;
+}
+
+.photo {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 25px;
+}
+
+img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
