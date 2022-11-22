@@ -16,6 +16,10 @@ li {
   padding: .4em .1em;
 }
 
+h2 {
+  margin-top: 1em;
+}
+
 .nav-spacer,.card-spacer{
   height: 2em;
 }
@@ -71,10 +75,11 @@ table.program {
   border-spacing: 0 0.1em;
 }
 
-tr.session-header {
-  background-color: #9999A9;
-  /* border-bottom: 1px solid #555;
-  border-top: 1px solid #555; */
+tr.session-times{
+  height: 5em;
+  vertical-align: bottom;
+  text-align: center;
+  color: #777;
 }
 
 td.session-time {
