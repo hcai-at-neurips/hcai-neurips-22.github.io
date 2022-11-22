@@ -3,10 +3,6 @@ body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-h2 {
-  margin-top: 1em;
-}
-
 a {
   color: #00B7FF;
 }
@@ -67,4 +63,59 @@ img {
   margin: 0 auto;
   height: 100%;
   width: auto;
+}
+
+table.program {
+  width: 100%;
+  border-collapse:separate; 
+  border-spacing: 0 0.1em;
+}
+
+tr.session-header {
+  background-color: #9999A9;
+  /* border-bottom: 1px solid #555;
+  border-top: 1px solid #555; */
+}
+
+td.session-time {
+  width: 4em;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+td.session-name {
+  text-align: right;
+  padding-right: 1em;
+  font-size: 1.4em;
+}
+
+td.sessionInfo {
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #555;
+  padding: 1em;
+}
+
+p.submission-number {
+  font-size: 1em;
+  color: #AAC;
+  text-align: right;
+}
+
+p.title {
+  font-size: 1.3em;
+  font-style: italic;
+}
+
+p.abstract {
+  padding-left: 2em;
+  padding-right: 2em;
+  font-size: 1.1em;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
 }
