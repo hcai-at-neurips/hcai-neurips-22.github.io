@@ -124,3 +124,9 @@ p.abstract {
 .align-right {
   text-align: right;
 }
+
+.logo {
+  max-width: 100px;
+  max-height: 100px;
+  margin: 0 1em;
+}
